@@ -1,0 +1,8 @@
+body{
+    background: rgb(68,65,117);
+background: linear-gradient(90deg, rgba(68,65,117,1) 0%, rgba(40,86,119,1) 44%, rgba(153,187,213,1) 82%, rgba(255,255,255,1) 86%, rgba(0,212,255,1) 100%);
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
