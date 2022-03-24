@@ -1,8 +1,36 @@
 body{
     background: rgb(68,65,117);
-background: linear-gradient(90deg, rgba(68,65,117,1) 0%, rgba(40,86,119,1) 44%, rgba(153,187,213,1) 82%, rgba(255,255,255,1) 86%, rgba(0,212,255,1) 100%);
+/* background: linear-gradient(90deg, rgba(68,65,117,1) 0%, rgba(40,86,119,1) 44%, rgba(153,187,213,1) 82%, rgba(255,255,255,1) 86%, rgba(0,212,255,1) 100%); */
+    background-image: url(https://media.glamour.com/photos/586fe71fcf8d09540facea68/16:9/w_2580,c_limit/kendall-jenner-no-makeup-makeup-social.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    height: 100%;
 }
 h1 {
     font-family: 'Times New Roman', Times, serif;
     color: black;
+}
+.heading{
+    display: flex;
+    padding-top: 2%;
+    
+}
+.forflex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.forflex>div{
+    /* flex-grow: 3; */
+}
+.card{
+    width: 20vw;
+    /* height: 100px; */
+    /* flex-basis: 79rem; */
+    box-shadow: 18px 28px 14px 2px rgba(54,39,39,0.7);
+    -webkit-box-shadow: 18px 28px 14px 2px rgba(54,39,39,0.7);
+    -moz-box-shadow: 18px 28px 14px 2px rgba(54,39,39,0.7);
+}
+.card-body{
+    height: 30vh;
 }
